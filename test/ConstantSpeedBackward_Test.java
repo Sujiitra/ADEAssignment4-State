@@ -10,15 +10,14 @@ import static org.junit.Assert.*;
 /**
  *
  * @author sujiitramurukeshan
+ * tests ConstantSpeedBackward class,
+ * assert equals 1 when the action is called
  */
 public class ConstantSpeedBackward_Test {
     
     public ConstantSpeedBackward_Test() {
     }
 
-    // TODO add test methods here.
-    // The methods must be annotated with annotation @Test. For example:
-    //
  ConstantSpeedBackward r=new ConstantSpeedBackward();
    @Test
     public void action_test() {

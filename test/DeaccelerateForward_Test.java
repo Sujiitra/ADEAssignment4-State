@@ -10,15 +10,13 @@ import static org.junit.Assert.*;
 /**
  *
  * @author sujiitramurukeshan
+ * tests DeaccelerateForward class,
+ * assert equals 1 when the action is called
  */
 public class DeaccelerateForward_Test {
     
     public DeaccelerateForward_Test() {
     }
-
-    // TODO add test methods here.
-    // The methods must be annotated with annotation @Test. For example:
-    //
      DeaccelerateForward r=new DeaccelerateForward();
    @Test
     public void action_test() {

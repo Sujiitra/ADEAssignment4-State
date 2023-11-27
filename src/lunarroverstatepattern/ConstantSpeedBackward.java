@@ -7,9 +7,14 @@ package lunarroverstatepattern;
 /**
  *
  * @author sujiitramurukeshan
+ *  *  * Implements the State interface,
+ * Constant Speed Backward state,
+ * has two methods
+ * action method- prints the action, returns 1,
+ * toString method returns the state value as string
+ * 
+ * 
  */
-//Implements the State interface
-
 public class ConstantSpeedBackward implements State{
      public int action(){
         System.out.println("ConstantSpeedBackward");

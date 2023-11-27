@@ -7,6 +7,8 @@ package lunarroverstatepattern;
 /**
  *
  * @author sujiitramurukeshan
+ * Context class,
+ * Acts as a getter and setter of the state of Lunar rover
  */
 public class Context {
     private State state;

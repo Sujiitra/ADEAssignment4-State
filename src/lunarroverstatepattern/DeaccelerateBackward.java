@@ -7,8 +7,12 @@ package lunarroverstatepattern;
 /**
  *
  * @author sujiitramurukeshan
+ * Implements the State interface,
+ * Deaccelerates Backward ,
+ * has two methods
+ * action method- prints the action, returns 1,
+ * toString method returns the state value as string
  */
-//Implements the State interface
 
 public class DeaccelerateBackward implements State {
     public int action(){

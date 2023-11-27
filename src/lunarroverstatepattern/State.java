@@ -7,8 +7,10 @@ package lunarroverstatepattern;
 /**
  *
  * @author sujiitramurukeshan
+ * State interface for State Pattern Demo
+ * has two methods action and toString
+ * 
  */
-//State interface for State Pattern Demo
 public interface State {
 
     public int action();

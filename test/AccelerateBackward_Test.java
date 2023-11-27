@@ -10,15 +10,14 @@ import static org.junit.Assert.*;
 /**
  *
  * @author sujiitramurukeshan
+ * tests AccelerateBackward class,
+ * assert equals 1 when the action is called
  */
 public class AccelerateBackward_Test {
     
     public AccelerateBackward_Test() {
     }
 
-    // TODO add test methods here.
-    // The methods must be annotated with annotation @Test. For example:
-    //
     AccelerateBackward r=new AccelerateBackward();
    @Test
     public void action_test() {

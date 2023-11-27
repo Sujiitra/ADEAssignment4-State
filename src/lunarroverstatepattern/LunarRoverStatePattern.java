@@ -7,12 +7,12 @@ package lunarroverstatepattern;
 /**
  *
  * @author sujiitramurukeshan
+ * Lunar Rove State Design Pattern,
+ * Has Main method,
+ * has methods or actions that's performed with the pedals
  */
 public class LunarRoverStatePattern {
 
-    /**
-     * @param args the command line arguments
-     */
     Context context= new Context();
    protected State currentState = new AtRest();
 
